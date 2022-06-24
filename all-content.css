@@ -1,0 +1,69 @@
+/*Universal Rules*/
+h2,
+h3,
+li,
+p,
+button,
+a,
+span {
+  font-family: "Karla", sans-serif;
+  font-size: 1.4rem;
+  color: #212631;
+  letter-spacing: 0.17rem;
+}
+
+body {
+  margin: 0;
+  background-color: #fffcfb;
+}
+
+/*Descrizione*/
+
+figure {
+  text-align: center;
+}
+.logo img {
+  width: 8%;
+  height: auto;
+}
+
+.short-description {
+  text-align: center;
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+/*Main*/
+div {
+  text-align: center;
+}
+div img {
+  width: 3%;
+  height: auto;
+  padding: 1rem;
+}
+
+#contatti span {
+  display: flow;
+}
+
+ul li {
+  list-style: circle;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 600px) {
+  .short-description {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  div img {
+    width: 10%;
+    height: auto;
+  }
+  .logo img {
+    width: 20%;
+    height: auto;
+  }
+}

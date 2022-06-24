@@ -1,0 +1,119 @@
+/*Universal Rules*/
+h2,
+h3,
+li,
+p,
+button,
+a {
+  font-family: "Karla", sans-serif;
+  font-size: 1.4rem;
+  color: #fffcfb;
+  letter-spacing: 0.17rem;
+}
+
+p {
+  color: #212631;
+}
+
+body {
+  margin: 0;
+  background-color: #fffcfb;
+}
+
+/*Style of Nav bar */
+
+nav {
+  background-color: #007ab8;
+  margin: 0 auto;
+  width: 100%;
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+#home-button {
+  justify-self: flex-end;
+}
+
+section {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/*Sezione descrittiva*/
+#my-pic {
+  width: 20%;
+  height: auto;
+  border-radius: 0.5rem;
+  float: left;
+}
+
+#hello {
+  text-align: center;
+  font-family: "Mali", cursive;
+  color: #2f5056;
+  font-size: 3rem;
+  margin: 0;
+}
+
+#short-description {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+.logo img {
+  width: 8%;
+  height: auto;
+}
+
+#learn-more {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#button {
+  background-color: #fffcfb;
+  border: 2px solid #212631;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+#button a {
+  color: #212631;
+  text-decoration: none;
+}
+
+#learn-more :hover {
+  transform: scale(1.03);
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  #my-pic {
+    float: none;
+    width: 80%;
+    height: auto;
+  }
+
+  #short-description {
+    text-align: center;
+  }
+}
